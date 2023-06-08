@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPUT 태그 실습</title>
+</head>
+<body>
+    <p>HELLO</p><p>WORLD P태그</p>
+    HELLO <br> WORLD br 태그 <br>
+    <p>USER ID: <input type="text" name="ID" maxlength="16" size="16"> <br>
+    USER PW: <input type="password" name="PW" maxlength="16" size="16"></p>
+
+    <p><input type="radio" name="gender">male</p>
+    <p><input type="radio" name="gender">female</p>
+
+    <p><input type="radio" name="gender1">male
+    <input type="radio" name="gender1">female</p>
+
+    <p><input type="checkbox" name="hobby1">영화감상
+        <input type="checkbox" name="hobby2">운동
+        <input type="checkbox" name="hobby3">게임
+        <input type="checkbox" name="hobby4">음악</p>
+
+    <p><input type="number" name="cart" value="1" min="1" max="99"></p>
+
+    <p><input type="color" name="mycolor"></p>
+
+    <p><input type="button" onclick="alert('아이디를 입력해주세요')" value="click!"</p>
+
+    <p><input type="date" name="date1" max="2023-12-31" min="1979-12-31"></p>
+    <p><input type="date" name="maxdate" max="2023-12-31"></p>
+    <p><input type="date" name="mindate" min="2023-01-01"></p>
+    
+    <p><input type="range" name="points" min="0" max="100" value="50"></p>
+
+    <p><input type="month" name="month_year"></p> //년과 월 선택
+    <p><input type="week" name="week_year"></p> //년과 주 선택
+    <p><input type="time" name="usr_time"></p> //시간 선택
+
+    <p><input type="email"><br>//이메일 유효성 검사</p>
+    <p><input type="tel" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+        <br>//전화번호 유효성 검사</p>
+    <p><input type="text" size="3" maxlength="3"> -
+        <input type="text" size="4" maxlength="4"> -
+        <input type="text" size="4" maxlength="4"></p>
+
+    <p><input type="search" size="30" maxlength="30">
+        <input type="button" value="search"></p>
+</body>
+</html>
